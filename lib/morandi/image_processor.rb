@@ -210,7 +210,7 @@ protected
     case filter
     when 'greyscale'
       op = Morandi::Colourify.new_from_hash('op' => filter)
-    when 'sepia', 'bluetone'
+    when 'sepia', 'bluetone', 'clarendon'
       # could also set 'alpha' => (0.85 * 255).to_i
       op = Morandi::Colourify.new_from_hash('op' => filter)
     else

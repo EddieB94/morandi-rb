@@ -284,6 +284,10 @@ class Colourify < ImageOp
     PixbufUtils.tint(pixbuf, -10, 5, 25, alpha)
   end
 
+  def clarendon(pixbuf)
+    PixbufUtils.tint(pixbuf, 27, 97, 137, alpha)
+  end
+
   def null(pixbuf)
     pixbuf
   end
